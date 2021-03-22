@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: Star_out;
+    src:  url(starjout-webfont.woff);
+}
+
+@font-face {
+    font-family: Star_jedi;
+    src:  url(starjedi-webfont.woff);
+}
+
+
+
+
+body{
+    font-family: Star_out;
+    
+    color: black;
+    font-size: 25px;
+    background-image: url(http://images5.fanpop.com/image/photos/25600000/Star-Wars-Saga-Wallpapers-star-wars-25671347-1024-768.jpg);
+    background-size: cover;
+    
+    
+}
+
+form{
+
+    max-width: 1000px;
+    margin: auto;
+    background-color:black;
+    width: 35%;
+    height: 700px;
+    background-image: url(https://giffiles.alphacoders.com/145/14596.gif);
+    background-size: cover;
+    
+    
+    
+    
+}
+
+.title{
+    font-family: Star_jedi;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:yellow;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.campos {
+    margin-top: 15%;
+    text-align: center;
+    
+    
+    
+}
+
+.campos > label {
+    font-family: Star_jedi;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    display:block;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:yellow;
+}
+
+.campos > input {
+    outline: 0;
+    width: 95%;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+
+   
+
+    
+    
+}
+
+#botao {
+    font-family: Star_out;
+    height: 50px;
+    color: black;
+    font-size: 1em;
+    background-image: url(https://i.pinimg.com/originals/07/58/a5/0758a5045b842676f02039c0972cf53b.gif);
+    border: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:yellow;
+    
+}
+
+#botao:hover, #botao:focus, #botao:active {
+    background-image: url(https://i.pinimg.com/originals/34/2a/30/342a30d977b722c85b06aa83e39aec86.gif);
+
+
+}
